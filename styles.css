@@ -1,2 +1,44 @@
-
-/* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+	background-color:#1f1f1f;
+}
+#main{
+	display:flex;
+	justify-content:center;
+}
+#image_box{
+	width:500px;
+	height:300px;
+}
+img{
+	width:500px;
+	height:300px;
+	border-radius:15px;
+	justify-content:center;
+}
+#gener{
+	display:flex;
+	justify-content:space-around;
+}
+a{
+	text-decoration:none;
+	margin:6px;
+	border:1px solid black;
+	border-radius:9px;
+	padding:4px;
+	
+}
+a:hover{
+	background-color:grey;
+	color:white;
+	scale:1.1;
+}
+p{
+	color:grey;
+	margin-top:30px;
+}
+h2{
+	padding:15px;
+	color:grey;
+}
